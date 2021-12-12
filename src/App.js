@@ -61,7 +61,16 @@ function App() {
           />
         </Route>
         <Route path="/training">
-          <Training />
+          <Training
+            answer={answer}
+            updateAnswer={updateAnswer}
+            difficultyLevel={difficultyLevel}
+            updateDifficultyLevel={updateDifficultyLevel}
+            A={A}
+            updateA={updateA}
+            B={B}
+            updateB={updateB}
+          />
         </Route>
         <Route path="/settings">
           <Settings

@@ -1,9 +1,11 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 import Clock from './Clock';
 import Weather from './Weather';
 
 function Lockscreen({ A, B, answer, updateAnswer }) {
+  const history = useHistory();
   return (
     <div className="Lockscreen">
       <div className="Lockscreen-components">
@@ -34,7 +36,7 @@ function Lockscreen({ A, B, answer, updateAnswer }) {
                     'Вы ввели неправильный ответ. Вы хотите перейти к обучению?'
                   )
                 ) {
-                  window.location = '/training';
+                  history.push('/training');
                 }
               } else {
                 window.alert('Вы успешно разблокировали телефон! Поздравляем!');
