@@ -1,0 +1,38 @@
+.Layout {
+  text-align: center;
+  background-color: #CCCCCC;
+  background-image: url(http://www.elinchrom.com/data/pages/media/xl/BatteryPack.jpg);
+  color: white;
+}
+
+.Layout-navigation {
+  padding: 10px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  background-color: rgba(0,0,0,0.5);
+  height: 85px;
+  box-sizing: border-box;
+}
+
+.Layout-navigation a {
+  color: white;
+}
+
+.Layout-navigation > table {
+  width: 100%;
+}
+
+.Layout-navigation > table > tbody > tr > td {
+  width: 33%;
+}
+
+.Layout-content {
+  min-height: calc(100vh - 85px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+

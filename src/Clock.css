@@ -1,0 +1,8 @@
+.Clock {
+  display:inline-block;
+  font-size:38px;
+  color:#fff;
+  font-weight:300;
+  opacity:0.9;
+  font-family:'Open Sans Condensed';
+}

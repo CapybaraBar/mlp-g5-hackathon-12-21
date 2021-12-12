@@ -1,0 +1,16 @@
+.Weather {
+  padding-left: 12px;
+  border-left: 1px solid rgba(255,255,255,0.5);
+  margin-left: 11px;
+  display:inline-block;
+  font-size:38px;
+  color:#fff;
+  font-weight:300;
+  opacity:0.9;
+  font-family:'Open Sans Condensed';
+}
+
+.Weather .lnr {
+  font-size: 24px;
+  padding-top: 4px;
+}
